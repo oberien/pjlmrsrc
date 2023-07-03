@@ -1,0 +1,19 @@
+[Adblock Plus 2.0]
+! Title: Pjlmrsrc (Please just let me read speedrun.com)
+! Author: just-ero, LukeSaward1, oberien
+! Version: 1.0
+! Expires: 7 days
+
+www.speedrun.com##.desktop_hero.malediction
+www.speedrun.com##.desktop_sidebar_a.malediction
+www.speedrun.com##.space-dementia.desktop_skin.malediction
+www.speedrun.com##.desktop_footer.malediction
+www.speedrun.com##.promo_banner.malediction
+www.speedrun.com##.mobile_hero.malediction
+www.speedrun.com##.widget-column
+www.speedrun.com##.btn-boost
+www.speedrun.com##.game-stats-widget.widget-container
+www.speedrun.com##.mobile_midcontent_a.malediction
+www.speedrun.com##.mobile_midcontent_b.malediction
+www.speedrun.com##.mobile_footer.malediction
+www.speedrun.com##a[href="/supporter"]
