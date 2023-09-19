@@ -4,14 +4,17 @@
 ! Version: 1.0
 ! Expires: 7 days
 
-www.speedrun.com##.desktop_hero.malediction
-www.speedrun.com##.desktop_sidebar_a.malediction
-www.speedrun.com##.space-dementia.desktop_skin.malediction
-www.speedrun.com##.desktop_footer.malediction
-www.speedrun.com##.promo_banner.malediction
-www.speedrun.com##.mobile_hero.malediction
-www.speedrun.com##.btn-boost
-www.speedrun.com##.mobile_midcontent_a.malediction
-www.speedrun.com##.mobile_midcontent_b.malediction
-www.speedrun.com##.mobile_footer.malediction
-www.speedrun.com##a[href="/supporter"]
+! Removes the Community News section
+www.speedrun.com##div.overflow-hidden.bg-panel\/panel.rounded-lg.x-panel-shadow:nth-of-type(1)
+! Removes the supporter ad on game pages
+www.speedrun.com##.lg\:w-\[400px\].gap-y-4.flex-nowrap.flex-col.flex-none.min-w-0.w-full.flex.relative > div.lg\:block.hidden
+! Removes the Popular New Games section
+www.speedrun.com##div.overflow-hidden.bg-panel\/panel.rounded-lg.x-panel-shadow:nth-of-type(4)
+! Removes the Supporter button from the main buttons in the header (Games, Forums, etc.)
+www.speedrun.com##[href="/support"] > .h-full.x-navbar-button
+! Removes the Supporter dropdown button in the navbar's tri-vertical-dot menu
+www.speedrun.com##button.x-menu-item:nth-of-type(3)
+! Removes the Boost button on game pages
+www.speedrun.com##.hover\:bg-\[\#ee5a5a\].ring-black\/10.ring-2.text-white.text-sm.bg-\[\#ee4444\].border-transparent.border.rounded.overflow-hidden.relative.group.x-input-button
+! Removes the footer
+www.speedrun.com##.x-panel-shadow.sticky.w-full.bg-panel\/panel.backdrop-blur-sm.backdrop-saturate-200
